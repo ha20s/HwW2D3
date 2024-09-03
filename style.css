@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* first box */
+.container1{
+
+    /* border: 2px solid saddlebrown; */
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.inner1{
+display: grid;
+grid-template-columns: auto auto;
+    /* border: 1px solid slateblue; */
+    background-color: lightgray;
+}
+
+
+.inside1{
+    /* border: 1px solid navy; */
+    place-self: center;
+}
+
+.image1{
+    width: 20vw;
+    height: 40vh;
+}
+.p1{
+    color: gray;
+}
+
+.inner2{
+    background-color: lightblue;
+}
+
+
+/* second box */
+
+.inner3{
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+}
+
+/* third box */
+
+.container3{
+
+    display: grid;
+    grid-template-areas:
+      'box1 box2 box3 box4'
+      'box5 box6 box6 box4';
+
+}
+
+.box1 { 
+    display: grid;
+    place-items: center;
+    grid-area: box1;
+    background-color: #f05638;
+    text-align: center;
+
+ }
+.box2 { grid-area: box2;
+    display: grid;
+text-align: center;
+
+ }
+.box3 { grid-area: box3; 
+    display: grid;
+    place-items: center;
+    font-size: larger;
+}
+
+
+.box4 { grid-area: box4;
+    display: grid;
+      place-items: center;
+    text-align: center;
+    color: white;
+background-color: #8f76bc; 
+}
+
+.box5 { grid-area: box5; 
+    
+    display: grid;
+    place-items: center;
+
+    text-align: center;
+
+}
+
+.box6 { grid-area: box6;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    /* padding: 1rem; */
+
+background-color:#93b6b7; }
+
+.style{
+
+}
+
+/* last container */ 
+.container4{
+
+    display: grid;
+    grid-template-areas:
+      'head1 head2 head3 head3';
+
+}
+
+.head1{
+    display: grid;
+    grid-area: head1;
+    text-align: center;
+    place-items: center;
+
+    background-color:  rgb(56, 213, 244);
+}
+
+.head2{
+    grid-area: head2;
+    display: grid;
+    text-align: center;
+        place-items: center;
+
+}
+.head3{
+    display: grid;
+        grid-template-columns: auto auto;
+
+    grid-area: head3;
+    
+    background-color: rgb(44, 44, 44);
+    align-items: center;
+
+}
