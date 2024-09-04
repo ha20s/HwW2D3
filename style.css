@@ -69,6 +69,7 @@ grid-template-columns: auto auto;
 .box2 { grid-area: box2;
     display: grid;
 text-align: center;
+align-items: center;
 
  }
 .box3 { grid-area: box3; 
@@ -99,7 +100,6 @@ background-color: #8f76bc;
     display: grid;
     place-items: center;
     text-align: center;
-    /* padding: 1rem; */
 
 background-color:#93b6b7; }
 
